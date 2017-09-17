@@ -133,7 +133,7 @@
 						<format>xml</format>
 					</formats>
 					<check>
-						<haltOnFailure>true</haltOnFailure>
+						<haltOnFailure>false</haltOnFailure>
 						<lineRate>0</lineRate>
 						<branchRate>0</branchRate>
 						<totalLineRate>0</totalLineRate>
@@ -169,9 +169,9 @@
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>crevise-snapshots</name>
-        <url>https://crevise.jfrog.io/crevise/ext-snapshot-local</url>
+        <name>mint-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-    </distributionManagement>
+</distributionManagement>
 
 </project>
